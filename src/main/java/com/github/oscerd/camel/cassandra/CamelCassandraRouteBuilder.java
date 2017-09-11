@@ -23,7 +23,8 @@ public class CamelCassandraRouteBuilder extends RouteBuilder {
 
     public void configure() {
 
-    	String addr = "127.0.0.1";
+    	/** String addr = "127.0.0.1"; **/
+	String addr = "172.30.153.69";
     	List<String> collAddr = new ArrayList<String>();
     	collAddr.add(addr);
     	
